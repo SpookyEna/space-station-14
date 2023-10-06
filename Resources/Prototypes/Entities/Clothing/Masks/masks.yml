@@ -370,6 +370,19 @@
 
 - type: entity
   parent: ClothingMaskBase
+  id: ClothingMaskPumpkin
+  name: pumpkin mask
+  description: Get spooky!
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/pumpkin.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/pumpkin.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
   id: ClothingMaskBear
   name: bear mask
   description: I'm a cloudy, cloudy, cloudy, I'm not a bear at all.
